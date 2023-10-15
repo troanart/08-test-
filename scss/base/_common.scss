@@ -4,6 +4,7 @@ body {
 }
 
 .logo {
+  margin-right: auto;
   color: var(--accent-color);
   font-family: var(--logo-font-family);
   font-size: 26px;
@@ -20,7 +21,9 @@ body {
     color: var(--primary-white-color);
   }
 
-  @media screen and (min-width:1600px) {
+  
+
+  @media screen and (min-width:1200px) {
     padding: 0;
   }
 }
@@ -41,7 +44,7 @@ body {
     letter-spacing: 0.84px;
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     font-size: 36px;
   }
 }
@@ -54,7 +57,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 
-  @media screen and (min-width:1600px) {
+  @media screen and (min-width:1200px) {
     text-align: left;
   }
 }

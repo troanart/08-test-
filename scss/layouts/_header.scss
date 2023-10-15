@@ -6,17 +6,24 @@
 }
 
 .navigatoin {
-    
+    display: flex;
     align-items: center;
+   
 }
 
 .nav {
-    
+    display: flex;
     align-items: center;
+
+   
 }
 
 .nav-list {
+    display: none;
     margin-left: 94px;
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
     
 }
 
@@ -68,9 +75,14 @@
 }
 
 .contact-list {
-    
+    display: none;
     margin-left: auto;
-    gap: 40px;
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
 }
 
@@ -94,7 +106,17 @@
 
     &__icon {
         fill: currentColor;
+       @media screen and (min-width:768px) {
+        margin-right: 8px;
+       }
+
+       @media screen and (min-width:1200px) {
         margin-right: 10px;
+       }
     }
 }
+
+
+
+
 
