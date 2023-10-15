@@ -50,6 +50,11 @@ body {
 .logo__white {
   color: var(--primary-white-color);
 }
+@media screen and (min-width: 1600px) {
+  .logo {
+    padding: 0;
+  }
+}
 
 .secondary-title {
   text-align: center;
@@ -82,6 +87,11 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   text-align: center;
+}
+@media screen and (min-width: 1600px) {
+  .third-title {
+    text-align: left;
+  }
 }
 
 h1,
@@ -217,6 +227,11 @@ address {
 @media screen and (min-width: 768px) {
   .socials-box {
     margin-left: 165px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .socials-box {
+    margin-left: 94px;
   }
 }
 
@@ -661,9 +676,28 @@ address {
   margin: 0;
   padding: 0;
 }
+@media screen and (min-width: 1600px) {
+  .subscribe__form {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media screen and (min-width: 768px) {
   .subscribe {
     margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .subscribe {
+    margin-top: 0;
+    margin-left: 94px;
   }
 }
 
@@ -735,6 +769,13 @@ address {
 @media screen and (min-width: 768px) {
   .subscribe__email {
     width: 450px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .subscribe__email {
+    margin-right: 12px;
+    width: 358px;
+    margin-bottom: 0;
   }
 }
 
@@ -958,6 +999,12 @@ address {
     width: 360px;
   }
 }
+@media screen and (min-width: 1600px) {
+  .main-tilte {
+    font-size: 44px;
+    width: 696px;
+  }
+}
 
 .main-btn {
   display: -webkit-box;
@@ -1001,6 +1048,11 @@ address {
   letter-spacing: 0.42px;
   margin-top: 10px;
 }
+@media screen and (min-width: 1600px) {
+  .peculiarities {
+    padding: 94px 0;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .pec-list {
@@ -1019,24 +1071,16 @@ address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 
-.peculiarities__item {
-  margin-bottom: 30px;
-}
-.peculiarities__item:last-child {
-  margin-bottom: 0px;
-}
 @media screen and (min-width: 480px) {
   .peculiarities__item {
     width: 100%;
+    margin-bottom: 30px;
+  }
+  .peculiarities__item:last-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1046,7 +1090,8 @@ address {
 }
 @media screen and (min-width: 1600px) {
   .peculiarities__item {
-    margin-bottom: 0px;
+    width: 270px;
+    margin-bottom: 0;
   }
 }
 
@@ -1071,6 +1116,11 @@ address {
     width: 100%;
   }
 }
+@media screen and (min-width: 1600px) {
+  .pec-item__icon {
+    width: 270px;
+  }
+}
 
 .pec__icon {
   --color1: #212121;
@@ -1078,7 +1128,6 @@ address {
 }
 
 .job {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 @media screen and (max-width: 1599px) {
@@ -1133,6 +1182,11 @@ address {
 .team__title {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1600px) {
+  .team__title {
+    margin-bottom: 50px;
+  }
+}
 .team__item {
   margin-bottom: 30px;
   width: 100%;
@@ -1149,6 +1203,12 @@ address {
     margin-bottom: 0;
     -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .team__item {
+    -ms-flex-preferred-size: calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
   }
 }
 
@@ -1168,6 +1228,19 @@ address {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 30px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1208,6 +1281,18 @@ address {
     width: 215px;
   }
 }
+@media screen and (min-width: 1600px) {
+  .clients__item {
+    display: block;
+    -ms-flex-preferred-size: calc(16.6666666667% - 30px);
+        flex-basis: calc(16.6666666667% - 30px);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .clients {
+    padding: 94px 0;
+  }
+}
 
 .clients-list {
   display: -webkit-box;
@@ -1246,6 +1331,11 @@ address {
 .clients__link:hover, .clients__link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
+}
+@media screen and (min-width: 1600px) {
+  .clients__link {
+    width: 170px;
+  }
 }
 
 .portfolio {
@@ -1338,6 +1428,17 @@ address {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    text-align: left;
   }
 }
 

@@ -19,6 +19,10 @@ body {
   &__white {
     color: var(--primary-white-color);
   }
+
+  @media screen and (min-width:1600px) {
+    padding: 0;
+  }
 }
 
 .secondary-title {
@@ -49,4 +53,8 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   text-align: center;
+
+  @media screen and (min-width:1600px) {
+    text-align: left;
+  }
 }

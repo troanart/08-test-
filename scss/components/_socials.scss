@@ -59,9 +59,8 @@
 // dark icon
 
 .socials-box {
-  // margin-left: 94px;
-  // margin-bottom: 60px;
-  //   margin-left: 165px;
+  
+  
   &__title {
     color: var(--primary-white-color);
     margin-top: 0px;
@@ -69,6 +68,11 @@
 
   @media screen and (min-width: 768px) {
     margin-left: 165px;
+  }
+
+  @media screen and (min-width:1600px) {
+    margin-left: 94px;
+  
   }
 }
 

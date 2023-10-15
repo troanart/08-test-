@@ -9,6 +9,10 @@
     letter-spacing: 0.42px;
     margin-top: 10px;
   }
+
+  @media screen and (min-width: 1600px) {
+    padding: 94px 0;
+  }
 }
 
 .pec-list {
@@ -22,35 +26,38 @@
 
   @media screen and (min-width: 1600px) {
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 .peculiarities__item {
-  margin-bottom: 30px;
+ 
 
-  // &:not(:last-child) {
-  //     margin-right: 30px;
-  // }
-
-  // &:not(:last-child) {
-  //     margin-bottom: 30px;
-  // }
-  &:last-child {
-    margin-bottom: 0px;
-  }
+//   &:not(:last-child) {
+//     margin-bottom: 30px;
+// }
+ 
 
   @media screen and (min-width: 480px) {
     width: 100%;
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+     
   }
 
   @media screen and (min-width: 768px) {
     width: 354px;
+    // &:not(:last-child) {
+    //   margin-bottom: 30px;
+    // }
   }
 
   @media screen and (min-width: 1600px) {
-    margin-bottom: 0px;
+    width: 270px;
+    margin-bottom: 0;
+    
   }
 }
 
@@ -66,6 +73,10 @@
 
   @media screen and (min-width: 480px) {
     width: 100%;
+  }
+
+  @media screen and (min-width:1600px) {
+    width: 270px;
   }
 }
 
